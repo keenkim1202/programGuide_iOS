@@ -359,7 +359,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = "/Users/kimhyejin/Projects/buzzni_iOS_hyejinKim/buzzni_iOS_hyejinKim/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "/Users/heyziin/Projects/buzzni_iOS_hyejinKim/buzzni_iOS_hyejinKim/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +380,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = "/Users/kimhyejin/Projects/buzzni_iOS_hyejinKim/buzzni_iOS_hyejinKim/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "/Users/heyziin/Projects/buzzni_iOS_hyejinKim/buzzni_iOS_hyejinKim/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
