@@ -17,11 +17,12 @@
 		3EC92D1325B168DA005E21A5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC92D1225B168DA005E21A5 /* FeedViewController.swift */; };
 		3ED36B3B25B5589B00A6F630 /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED36B3A25B5589B00A6F630 /* FeedCollectionViewCell.swift */; };
 		3EFA7F5C25B5D1D7009E6AE7 /* RepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFA7F5B25B5D1D7009E6AE7 /* RepositoryService.swift */; };
+		B8E60D9D25C15A6400F4F6D6 /* ProgramGuide+DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E60D9C25C15A6400F4F6D6 /* ProgramGuide+DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E1DC1DF25B18C4B007C4052 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
-		3EC92CF025B15E96005E21A5 /* buzzni_iOS_hyejinKim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buzzni_iOS_hyejinKim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC92CF025B15E96005E21A5 /* ProgramGuide_iOS_heyziin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgramGuide_iOS_heyziin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC92CF325B15E96005E21A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EC92CF525B15E96005E21A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3EC92CFA25B15E96005E21A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		3EC92D1225B168DA005E21A5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		3ED36B3A25B5589B00A6F630 /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		3EFA7F5B25B5D1D7009E6AE7 /* RepositoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryService.swift; sourceTree = "<group>"; };
+		B8E60D9C25C15A6400F4F6D6 /* ProgramGuide+DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgramGuide+DateFormatter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,7 @@
 		3EC92CE725B15E96005E21A5 = {
 			isa = PBXGroup;
 			children = (
-				3EC92CF225B15E96005E21A5 /* buzzni_iOS_hyejinKim */,
+				3EC92CF225B15E96005E21A5 /* ProgramGuide_iOS_heyziin */,
 				3EC92CF125B15E96005E21A5 /* Products */,
 				3E08985E25B813E10039DB77 /* Frameworks */,
 			);
@@ -64,19 +66,19 @@
 		3EC92CF125B15E96005E21A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3EC92CF025B15E96005E21A5 /* buzzni_iOS_hyejinKim.app */,
+				3EC92CF025B15E96005E21A5 /* ProgramGuide_iOS_heyziin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3EC92CF225B15E96005E21A5 /* buzzni_iOS_hyejinKim */ = {
+		3EC92CF225B15E96005E21A5 /* ProgramGuide_iOS_heyziin */ = {
 			isa = PBXGroup;
 			children = (
 				3EC92D1025B1687C005E21A5 /* Resources */,
 				3EC92D0F25B16853005E21A5 /* Sources */,
 				3EC92D0E25B1684A005E21A5 /* Supporting Files */,
 			);
-			path = buzzni_iOS_hyejinKim;
+			path = ProgramGuide_iOS_heyziin;
 			sourceTree = "<group>";
 		};
 		3EC92D0E25B1684A005E21A5 /* Supporting Files */ = {
@@ -90,6 +92,7 @@
 		3EC92D0F25B16853005E21A5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				B8E60D9B25C15A2800F4F6D6 /* Shared */,
 				3EFA7F5A25B5D13F009E6AE7 /* Model */,
 				3EFA7F5925B5D132009E6AE7 /* Service */,
 				3EC92CF325B15E96005E21A5 /* AppDelegate.swift */,
@@ -127,12 +130,20 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		B8E60D9B25C15A2800F4F6D6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B8E60D9C25C15A6400F4F6D6 /* ProgramGuide+DateFormatter.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3EC92CEF25B15E96005E21A5 /* buzzni_iOS_hyejinKim */ = {
+		3EC92CEF25B15E96005E21A5 /* ProgramGuide_iOS_heyziin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EC92D0425B15E97005E21A5 /* Build configuration list for PBXNativeTarget "buzzni_iOS_hyejinKim" */;
+			buildConfigurationList = 3EC92D0425B15E97005E21A5 /* Build configuration list for PBXNativeTarget "ProgramGuide_iOS_heyziin" */;
 			buildPhases = (
 				3EC92CEC25B15E96005E21A5 /* Sources */,
 				3EC92CED25B15E96005E21A5 /* Frameworks */,
@@ -142,11 +153,11 @@
 			);
 			dependencies = (
 			);
-			name = buzzni_iOS_hyejinKim;
+			name = ProgramGuide_iOS_heyziin;
 			packageProductDependencies = (
 			);
 			productName = buzzni_iOS_hyejinKim;
-			productReference = 3EC92CF025B15E96005E21A5 /* buzzni_iOS_hyejinKim.app */;
+			productReference = 3EC92CF025B15E96005E21A5 /* ProgramGuide_iOS_heyziin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3EC92CEB25B15E96005E21A5 /* Build configuration list for PBXProject "buzzni_iOS_hyejinKim" */;
+			buildConfigurationList = 3EC92CEB25B15E96005E21A5 /* Build configuration list for PBXProject "ProgramGuide_iOS_heyziin" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -178,7 +189,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EC92CEF25B15E96005E21A5 /* buzzni_iOS_hyejinKim */,
+				3EC92CEF25B15E96005E21A5 /* ProgramGuide_iOS_heyziin */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +216,7 @@
 				3EC92CF425B15E96005E21A5 /* AppDelegate.swift in Sources */,
 				3ED36B3B25B5589B00A6F630 /* FeedCollectionViewCell.swift in Sources */,
 				3EC92D1325B168DA005E21A5 /* FeedViewController.swift in Sources */,
+				B8E60D9D25C15A6400F4F6D6 /* ProgramGuide+DateFormatter.swift in Sources */,
 				3EC92CF625B15E96005E21A5 /* SceneDelegate.swift in Sources */,
 				3E1DC1E025B18C4B007C4052 /* FeedTableViewCell.swift in Sources */,
 				3EFA7F5C25B5D1D7009E6AE7 /* RepositoryService.swift in Sources */,
@@ -359,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = "/Users/heyziin/Projects/buzzni_iOS_hyejinKim/buzzni_iOS_hyejinKim/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "/Users/heyziin/Projects/ProgramGuide_iOS/ProgramGuide_iOS_heyziin/ProgramGuide_iOS_heyziin/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				EXCLUDED_ARCHS = "";
-				INFOPLIST_FILE = "/Users/heyziin/Projects/buzzni_iOS_hyejinKim/buzzni_iOS_hyejinKim/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "/Users/heyziin/Projects/ProgramGuide_iOS/ProgramGuide_iOS_heyziin/ProgramGuide_iOS_heyziin/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3EC92CEB25B15E96005E21A5 /* Build configuration list for PBXProject "buzzni_iOS_hyejinKim" */ = {
+		3EC92CEB25B15E96005E21A5 /* Build configuration list for PBXProject "ProgramGuide_iOS_heyziin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EC92D0225B15E97005E21A5 /* Debug */,
@@ -405,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EC92D0425B15E97005E21A5 /* Build configuration list for PBXNativeTarget "buzzni_iOS_hyejinKim" */ = {
+		3EC92D0425B15E97005E21A5 /* Build configuration list for PBXNativeTarget "ProgramGuide_iOS_heyziin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EC92D0525B15E97005E21A5 /* Debug */,
